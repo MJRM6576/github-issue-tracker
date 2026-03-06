@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <!-- disiui -->
+     <link href="https://cdn.jsdelivr.net/npm/daisyui@5" rel="stylesheet" type="text/css" />
+    <script src="https://cdn.jsdelivr.net/npm/@tailwindcss/browser@4"></script>
+
+    <link rel="stylesheet" href="./tailwind.config.css">
+    <title>Loging</title>
+</head>
+<body>
+
+    <div class="flex justify-center items-center ">
+    
+        <div class="h-[730px] w-[520px] p-8 shadow-2xl rounded-lg">
+        
+            <div class="text-center">
+             <img class="mx-auto w-16 mb-4" src="./assets/github-logo.png" alt="">
+             <p class="text-2xl font-semibold text-black">GitHub Issues Tracker</p>
+            <p>Sign in to manage your issues</p>
+            </div>
+
+            <div class="mt-6 flex justify-center">
+            <fieldset class="fieldset bg-base-200 border-base-300 rounded-box border p-4 w-full max-w-sm">
+
+                <label class="label">Username</label>
+                <input type="text" class="input input-bordered w-full" placeholder="Enter Username" />
+                <p class="text-primary text-sm">Default: admin</p>
+                
+                <label class="label mt-2">Password</label>
+                <input type="password" class="input input-bordered w-full" placeholder="Enter Password" />
+                <p class="text-primary text-sm">Default: admin123</p>
+
+                <button class="btn btn-primary mt-4 w-full">Login</button>
+
+            </fieldset>
+            </div>
+
+            <div class="text-center mt-6">
+            <p class="font-semibold">OR</p>
+            <p class="my-6">Demo Credentials:</p>
+            <p>Username: admin</p>
+            <p>Password: admin123</p>
+            </div>
+
+        </div>
+
+    </div>
+</body>
+</html>
